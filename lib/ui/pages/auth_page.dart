@@ -404,18 +404,11 @@ class _BrandStrip extends StatelessWidget {
           TextSpan(
             children: [
               TextSpan(
-                text: 'Training',
+                text: 'Bear Authointication',
                 style: theme.textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.w800,
                   letterSpacing: -0.6,
                   color: scheme.onSurface,
-                ),
-              ),
-              TextSpan(
-                text: ' · cozy login',
-                style: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w500,
-                  color: scheme.onSurfaceVariant,
                 ),
               ),
             ],
